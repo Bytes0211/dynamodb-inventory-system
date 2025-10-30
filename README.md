@@ -39,18 +39,7 @@ This project implements a complete inventory management system using DynamoDB, s
 
 ### Installation
 
-```bash
-# Clone the repository
-git clone <repository-url>
-cd dynamodb-inventory-system
-
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
+🔴 Installlation process has not been designed/implemented
 
 ### Running Locally with DynamoDB Local
 
@@ -65,13 +54,7 @@ export DYNAMODB_ENDPOINT_URL=http://localhost:8500
 
 ### Stream Processing
 
-```python
-from stream_processor import LowStockAlertProcessor
-
-# Process DynamoDB Stream events
-processor = LowStockAlertProcessor()
-processor.process_stream_records(stream_records)
-```
+🔴 Not started
 
 ## 🗂️ Project Structure
 
